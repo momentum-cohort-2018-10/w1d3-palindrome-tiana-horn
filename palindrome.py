@@ -26,8 +26,8 @@ def inner(new_text):
         if new_text[0] == new_text[-1]:
             return inner(new_text[1:-1])
         else: 
-            return "is not a palindrome"
+            return "i am not a palindrome"
     else: 
-        return "is not a palindrome"
+        return "i am not a palindrome"
 
 print(inner(text))
